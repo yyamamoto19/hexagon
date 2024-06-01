@@ -8,14 +8,14 @@ This application includes a menu system and interactive visual components that c
 The front-end is built with Next.js and uses Tailwind CSS for styling.
 
 **Requirements**
-	•	Design an art and professional portfolio management API.
-	•	Build the API.
-	•	Update the front-end to be interactive and integrate with the server:
-    •	The portfolio book should display each art or professional work with associated information as a card.
-    •	Typing in the search bar should dynamically filter the cards to match the search criteria.
-    •	Clicking on the Add Experience button should toggle the form editor, and clicking on Save should save the new user’s experience.
-    •	Clicking the Edit button should toggle the form editor, and clicking on Save should update the existing experience.
-    •	Clicking the Delete button should remove the selected experience.
+- Design an art and professional portfolio management API.
+- Build the API.
+- Update the front-end to be interactive and integrate with the server:
+  - The portfolio book should display each art or professional work with associated information as a card.
+  - Typing in the search bar should dynamically filter the cards to match the search criteria.
+  - Clicking on the Add Experience button should toggle the form editor, and clicking on Save should save the new user’s experience.
+  - Clicking the Edit button should toggle the form editor, and clicking on Save should update the existing experience.
+  - Clicking the Delete button should remove the selected experience.
 
 
 
@@ -56,6 +56,6 @@ docker-compose exec client /bin/bash
 ```
 
 ## Additional Notes
-	•	Ensure environment variables are correctly set up for the application to connect to Redis and other required services.
-	•	For any configuration changes, modify the docker-compose.yml file accordingly.
-	•	Keep your dependencies up to date by running npm update inside the container.
+  - Ensure environment variables are correctly set up for the application to connect to Redis and other required services.
+	- For any configuration changes, modify the docker-compose.yml file accordingly.
+	- Keep your dependencies up to date by running npm update inside the container.
