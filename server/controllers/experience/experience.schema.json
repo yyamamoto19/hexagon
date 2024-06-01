@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "examples": ["exper_2e72f1f3-253b-4544-a1df-a4f504ba7e43"]
+    },
+    "title": {
+      "type": "string",
+      "examples": ["Untitled"],
+      "minLength": 1 
+    },
+    "city": {
+      "type": "string",
+      "examples": ["Tokyo"],
+      "minLength": 1
+    },
+    "state": {
+      "type": "string",
+      "examples": ["Michigan"],
+      "minLength": 1
+    },
+    "country": {
+      "type": "string",
+      "examples": ["Japan"],
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "examples": ["This stiple piece was done on 0.1 Copic Multiliner in conjuncture with work on Tatsuo's farm. The people playing in the forground are inspired by a scene on the beach in the show 'Normal People'."],
+      "minLength": 1
+    }
+  },
+  "required": ["id", "title", "city", "country", "description"],
+  "additionalProperties": false
+}
