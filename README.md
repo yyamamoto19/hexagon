@@ -56,6 +56,6 @@ docker-compose exec client /bin/bash
 ```
 
 ## Additional Notes
-  - Ensure environment variables are correctly set up for the application to connect to Redis and other required services.
-	- For any configuration changes, modify the docker-compose.yml file accordingly.
-	- Keep your dependencies up to date by running npm update inside the container.
+- Ensure environment variables are correctly set up for the application to connect to Redis and other required services.
+- For any configuration changes, modify the docker-compose.yml file accordingly.
+- Keep your dependencies up to date by running npm update inside the container.
